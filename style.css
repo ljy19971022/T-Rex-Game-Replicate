@@ -1,0 +1,151 @@
+.dino{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    bottom: 50%;
+    display:flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+}
+
+.obstacle{
+    position: absolute;
+    width:80px;
+    height:80px;
+    bottom:50%;
+    display:flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+}
+
+.pixel{
+    width:10px;
+    height:10px;
+    /* padding:0 0;
+    margin:0 0; */
+    
+}
+
+
+.pixel:nth-child(6),
+.pixel:nth-child(15),
+.pixel:nth-child(18),
+.pixel:nth-child(19),
+.pixel:nth-child(20),
+.pixel:nth-child(21),
+.pixel:nth-child(22),
+.pixel:nth-child(23),
+.pixel:nth-child(24),
+.pixel:nth-child(25),
+.pixel:nth-child(26),
+.pixel:nth-child(27),
+.pixel:nth-child(28),
+.pixel:nth-child(29),
+.pixel:nth-child(30),
+.pixel:nth-child(31),
+.pixel:nth-child(33),
+.pixel:nth-child(34),
+.pixel:nth-child(36),
+.pixel:nth-child(38),
+.pixel:nth-child(40),
+.pixel:nth-child(42),
+.pixel:nth-child(44),
+.pixel:nth-child(45),
+.pixel:nth-child(51), 
+.pixel:nth-child(43),
+.pixel:nth-child(52){
+    background-color: black;
+}
+
+
+.obstaclePixel{
+    width:10px;
+    height:10px;
+   
+}
+
+.obstaclePixel:nth-child(11),
+.obstaclePixel:nth-child(20),
+.obstaclePixel:nth-child(25),
+.obstaclePixel:nth-child(26),
+.obstaclePixel:nth-child(27),
+.obstaclePixel:nth-child(28),
+.obstaclePixel:nth-child(29),
+.obstaclePixel:nth-child(30),
+.obstaclePixel:nth-child(31),
+.obstaclePixel:nth-child(32),
+.obstaclePixel:nth-child(36),
+.obstaclePixel:nth-child(42),
+.obstaclePixel:nth-child(43){
+    background-color: black;
+}
+
+body{
+    height:100%;
+    width:100%;
+}
+
+
+
+
+h1{ 
+    font-family: 'VT323',monospace;
+    position: fixed;
+    top: 1%;
+    display:none;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+h3{
+    position:fixed;
+    top: 15%;
+    font-family: 'VT323',monospace;
+    font-size: 2em;
+}
+
+button{
+    border:none;
+    background-color:darkgrey;
+    height: 50px;
+    width:100px;
+    border-radius: 5%;
+    font-family:'VT323',monospace;
+    font-weight: bold;
+    display:none;
+    font-size: 30px;
+    padding:0 0;
+}
+
+#button{
+    height:60px;
+    width:120px;
+    margin: 0 auto;
+    padding: 0 0;
+    position: fixed;
+    top:25%;
+}
+
+html{
+    height:100%;
+    width:100%;
+    box-sizing: border-box;
+}
+
+body{
+    height:100%;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.grid{
+    height:50%;
+    width:100%;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+   
+}
