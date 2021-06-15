@@ -1,7 +1,7 @@
-# T-Rex-Game-Replicate
+# T-Rex-Game
 
 Description:
-Another small project using Javascript, html, and css, replicating the famous game 2048. I've also deploy the game on hostman. You can find it here: https://t-rex-game-replicate.hostman.site/
+Another small project using Javascript, html, and css, replicating the famous game T-REX. I've also deploy the game on hostman. You can find it here: https://t-rex-game-replicate.hostman.site/
 
 Table of Contents:
 In the file uploaded section you can find all the file you need to play the game! Just download them all in a zip file to make it easier for you to organize. 
